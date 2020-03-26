@@ -1,0 +1,79 @@
+.container1 {
+    background-color: grey;
+    display: block;
+    font-family: 'Baloo 2', cursive;
+    padding: 0px 0px;
+    text-align: center;
+}
+
+.container1 > li {
+    padding: 0px;
+    margin: 0 auto;
+    background-color: grey;
+    display: inline-block;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding: 15px 25px 15px;
+}
+
+.container1 > .item1 {
+    background-color: green;
+}
+
+a:hover {
+    background-color: tomato;
+}
+
+.container2 {
+    background-color: grey;
+    font-family: 'Baloo 2', cursive;
+    padding: 0px;
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    overflow: scroll;
+    height: 300px;
+}
+
+.container2 > li {
+    padding: 0px;
+}
+
+.container3 {
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+#imageSize {
+    background-color: purple;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 50px;
+    margin: 20px 0px;
+}
+
+#text {
+    font-weight: bold;
+    margin: 0px 0px;
+}
+
+.button {
+    background-color: darkgrey;
+    font-family: 'Baloo 2', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.button > span {
+    margin: 10px 20px;
+    display: inline-block;
+}
