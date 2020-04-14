@@ -1,0 +1,60 @@
+.menu {
+    float: left;
+    width: 70%;
+    /* padding: 20px 50px; */
+    background-color: grey;
+    display: block;
+    font-family: 'Baloo 2', cursive;
+    padding: 0px 0px;
+    text-align: center;
+}
+
+.menu > li {
+    padding: 0px;
+    margin: 0 auto;
+    background-color: grey;
+    display: inline-block;
+}
+
+.signin {
+    float: right;
+    width: 30%;
+    background-color: grey;
+    font-family: 'Baloo 2', cursive;
+    display: block;
+    /* padding: 20px 50px; */
+    text-align: right;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding: 15px 25px 15px;
+}
+
+a:hover {
+    background-color: tomato;
+}
+
+/* .menu {
+    float: left;
+    width: 30%;
+    padding: 20px 50px;
+}
+
+.menu > a {
+    color: white;
+    background-color: tomato;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+} */
+
+
+
+.header {
+    clear: both;
+}

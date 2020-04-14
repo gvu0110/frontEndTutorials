@@ -1,0 +1,59 @@
+*,
+body {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.container>* {
+    border: 1px solid black;
+    height: 100px;
+    width: 50%;
+}
+
+.col-1 {
+    width: 22.22%;
+    background-color: lightgray;
+}
+
+.col-2 {
+    width: 77.77%;
+    background-color: lightgray;
+}
+
+.col-3 {
+    width: 11.11%;
+    background-color: aqua;
+}
+
+.col-4 {
+    width: 11.11%;
+    background-color: yellow;
+}
+
+#thu-hai, #thu-tu, #thu-sau {
+    background-color: yellow;
+}
+
+#thu-ba, #thu-nam {
+    background-color: aqua;
+}
+
+[class *= "col"]{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    border: 1px solid black;
+}
+
+#mon-hoc-top {
+    border-bottom: none;
+}
+
+#mon-hoc-bottom {
+    border-top: none;
+}
